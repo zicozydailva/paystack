@@ -1,0 +1,137 @@
+ * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/*
+.menu-area a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  background: tomato;
+  height: 8vh;
+  font-family: cursive;
+  font-weight: bold;
+  text-decoration: none;
+  transition: all .3s linear;
+}
+.menu-area a:hover {
+  background: orange;
+  color: #fff;
+}
+.menu-area ul {
+  list-style: none;
+  display: flex;
+}
+.menu-area ul li {
+  position: relative;
+  width: 100%;
+  text-align: center;
+}
+
+.dropdown1 ul li {
+  display: none;
+  position: relative;
+}
+.menu-area li:hover .dropdown1 > li {
+  display: block;
+  top: 0;
+}
+.dropdown1 {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.dropdown2 ul li {
+  display: none;
+}
+.dropdown1 ul li:hover .dropdown2 ul li {
+  display: block;
+}
+.dropdown2 {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 0;
+  left: 100%;
+  width: 200px;
+}
+.menu-area .dropdown1 {
+  display: none;
+}
+.menu-area ul li {
+  transition: all 5s linear;
+}
+.menu-area ul li:hover .dropdown1 {
+  display: block;
+}  */
+/* ****** */
+.nav {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.header {
+  background: green;
+  width: 100%;
+  position: sticky;
+  top: 0;
+}
+.navLoginBtn:hover {
+  cursor: pointer;
+}
+.groupA a, .groupB a {
+  text-decoration: none;
+  color: black;
+  /* background: blanchedalmond; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 8vh;
+  font-family: cursive;
+  font-weight: bold;
+}
+.groupA a:hover, .groupB a:hover {
+  color: #fff;
+}
+.groupA ul, .groupB ul {
+  display: flex;
+  list-style: none;
+}
+.groupA ul li, .groupB ul li {
+  position: relative;
+  text-align: center;
+}
+.groupA, .groupB {
+  margin: auto 2rem;
+}
+.groupB li, .groupA li {
+  margin-right: 2.5rem;
+}
+.dropDownA li, .dropDownB  li {
+  display: none;
+  position: relative;
+}
+
+.groupA li:hover .dropDownA li {
+  display: block;
+  top: 0;
+  background: grey;
+}
+.dropDownA, .dropDownB, .dropDownC {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  width: 170px;
+}
+.dropDownC li {
+  display: none;
+  position: relative;
+}
+.groupB li:hover .dropDownC li, .groupA li:hover .dropDownB li {
+  display: block;
+  top: 0;
+  background: grey;
+}
